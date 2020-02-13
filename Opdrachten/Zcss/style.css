@@ -1,0 +1,25 @@
+#list
+{
+    width: 30%;
+    background-color: rgb(245, 245, 220);
+    position: relative;
+    top: -10px;
+    right: 7px;
+    padding: 10px;
+}
+#echo
+{
+    position: relative;
+    background-color: rgb(240, 248, 255);
+    text-align: right;
+    padding: 1px;
+    width: 100vw;
+    right: 10px;
+    top: -10px;
+}
+#uitwerking
+{
+    position: absolute;
+    left: 35%;
+    bottom: 80%;
+}
