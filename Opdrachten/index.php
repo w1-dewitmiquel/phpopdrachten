@@ -91,7 +91,7 @@
         </aside>
         <main id="wrapper">
             <div id="uitwerking">
-                <h2>
+                <h2 id="uitwerking2">
                     Uitwerking
                 </h2>
             </div>
