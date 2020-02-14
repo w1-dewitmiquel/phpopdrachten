@@ -116,6 +116,7 @@
 
                     echo("<p>". $text1 . $text11 . $text12 . $text8 . " " . $text15 . " " . $text16 . " " . $text5 . " " . $text2 . " " . $text13 . $text10 . $text12 . $text7 . $text10 . " " . $text14 . $text9 . "</p>");
                     ?>
+                    <a href="../../index.php">terug</a>
             </div>
         </main>
     </body>
