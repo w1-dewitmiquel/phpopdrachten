@@ -19,13 +19,9 @@
     </head>
     <body>
         <header>
-            <div id="echo">
-                <h1>
-                    <?php
-                    echo("Uitwerking van PHP-opdrachten");
-                    ?>
-                </h1>
-            </div>
+            <?php
+                include("../../../Includes/header.php");
+            ?>
         </header>
         <aside>
             <div id="list">
@@ -46,7 +42,7 @@
                         Hoofdstuk 3
                         <ul>
                             <li>
-                                <a href="../../Hoofdstuk%203/opdracht3.2.php">Opdracht 3.1</a>
+                                <a href="../../Hoofdstuk%203/3.1/opdracht3.1.php">Opdracht 3.1</a>
                             </li>
                             <li>
                                 <a href="../../Hoofdstuk%203/3.2/opdracht3.2.php">Opdracht 3.2</a>
@@ -115,9 +111,15 @@
                     echo("<p>" . $text1 . $text11 . " " . $text4 . " " . $text5 . " " . $text3 . $text10 . $text12 . $text7 . $text10 . " " . $text8 . " " . $text15 . $text9 . $text12 . $text6 . " " . $text5 . " " . $text3 . " " . $text13 . $text10 . "</p>");
 
                     echo("<p>". $text1 . $text11 . $text12 . $text8 . " " . $text15 . " " . $text16 . " " . $text5 . " " . $text2 . " " . $text13 . $text10 . $text12 . $text7 . $text10 . " " . $text14 . $text9 . "</p>");
+
+                    echo("<a href='../../index.php'>terug</a>");
                     ?>
-                    <a href="../../index.php">terug</a>
             </div>
         </main>
+    <footer>
+        <?php
+            include("../../../Includes/footer.php");
+        ?>
+    </footer>
     </body>
 </html>

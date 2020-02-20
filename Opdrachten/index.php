@@ -1,10 +1,10 @@
 <?php
-/**
- * User: Miquel de Wit
- * Date: 11-2-2020
- * Time: 11:59 am
- * File: index.php
- */
+    /**
+     * User: Miquel de Wit
+     * Date: Date
+     * Time: Time
+     * File: File
+     */
 ?>
 <!DOCTYPE html>
 <html>
@@ -18,15 +18,9 @@
         </title>
     </head>
     <body>
-        <header>
-            <div id="echo">
-                <h1>
-                    <?php
-                        echo("Uitwerking van PHP-opdrachten");
-                    ?>
-                </h1>
-            </div>
-        </header>
+    <?php
+        include("../Includes/header.php");
+    ?>
         <aside>
             <div id="list">
                 <h2>
@@ -96,5 +90,13 @@
                 </h2>
             </div>
         </main>
+    <footer>
+        <?php
+            include("../Includes/footer.php");
+        ?>
+    </footer>
     </body>
 </html>
+
+
+
