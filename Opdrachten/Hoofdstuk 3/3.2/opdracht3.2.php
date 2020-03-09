@@ -136,7 +136,7 @@
 
         <?php
             //Deel 2: Alcohol in verschillende landen opdracht
-            $countryname = "Nederland";
+            $countryname = "Zweden";
             $currentAge = 17;
 
             //Tonen algemene gegevens

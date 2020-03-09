@@ -52,7 +52,7 @@
                         Hoofdstuk 4
                         <ul>
                             <li>
-                                <a href="Hoofdstuk%204/4.1/opdracht4.1.php">Opdracht 4.1</a>
+                                <a href="Hoofdstuk 4/4.1/opdracht4.1.php">Opdracht 4.1</a>
                             </li>
                             <li>
                                 <a href="Hoofdstuk%204/4.2/opdracht4.2.php">Opdracht 4.2</a>

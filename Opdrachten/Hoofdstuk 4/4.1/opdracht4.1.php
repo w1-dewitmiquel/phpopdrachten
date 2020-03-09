@@ -1,28 +1,26 @@
 <?php
 /**
  * User: Miquel de Wit
- * Date: 11-2-2020
- * Time: 12:31
- * File: opdracht2.1.php
+ * Date: 20-2-2020
+ * Time: 17:36 pm
+ * File: opdracht4.1.php
  */
 ?>
-<!DOCTYPE html>
-<html>
+    <!DOCTYPE html>
+    <html>
     <head>
         <meta name="description" content=" ">
         <meta name="keywords" content=" ">
         <meta charset="utf-8">
-        <title>
-            Opdracht 2.1
-        </title>
         <link href="../../Zcss/style.css" rel="stylesheet" type="text/css">
+        <title>
+            Index
+        </title>
     </head>
     <body>
-    <header>
-        <?php
-            include("../../../Includes/header.php");
-        ?>
-    </header>
+    <?php
+    include("../../../Includes/header.php");
+    ?>
     <aside>
         <div id="list">
             <h2>
@@ -33,10 +31,10 @@
                     Hoofdstuk 2
                     <ul>
                         <li>
-                            <a href="opdracht2.1.php">Opdracht 2.1</a>
+                            <a href="../../Hoofdstuk%202/2.1/opdracht2.1.php">Opdracht 2.1</a>
                         </li>
                         <li>
-                            <a href="../2.2/opdracht2.2.php">Opdracht 2.2</a>
+                            <a href="../../Hoofdstuk%202/2.2/opdracht2.2.php">Opdracht 2.2</a>
                         </li>
                     </ul>
                     Hoofdstuk 3
@@ -54,16 +52,16 @@
                     Hoofdstuk 4
                     <ul>
                         <li>
-                            <a href="../../Hoofdstuk%204/4.1/opdracht4.1.php">Opdracht 4.1</a>
+                            <a href="opdracht4.1.php">Opdracht 4.1</a>
                         </li>
                         <li>
-                            <a href="../../Hoofdstuk%204/4.2/opdracht4.2.php">Opdracht 4.2</a>
+                            <a href="../4.2/opdracht4.2">Opdracht 4.2</a>
                         </li>
                         <li>
-                            <a href="../../Hoofdstuk%204/4.3/opdracht4.3.php">Opdracht 4.3</a>
+                            <a href="../4.3/opdracht4.3.php">Opdracht 4.3</a>
                         </li>
                         <li>
-                            <a href="../../Hoofdstuk%204/4.4/opdracht4.4.php">Opdracht 4.4</a>
+                            <a href="../4.4/opdracht4.4.php">Opdracht 4.4</a>
                         </li>
                     </ul>
                     Hoofdstuk 5
@@ -90,16 +88,20 @@
             <h2 id="uitwerking2">
                 Uitwerking
             </h2>
-                <?php
-                echo("<p>Hello World</p>");
-                echo("<p><a href='../../index.php'>terug</a></p>");
-                ?>
+            <?php
+
+            ?>
         </div>
     </main>
     <footer>
         <?php
-            include("../../../Includes/footer.php");
+        include("../../../Includes/footer.php");
         ?>
     </footer>
     </body>
-</html>
+    </html>
+
+
+
+
+
