@@ -55,7 +55,7 @@
                             <a href="opdracht4.1.php">Opdracht 4.1</a>
                         </li>
                         <li>
-                            <a href="../4.2/opdracht4.2">Opdracht 4.2</a>
+                            <a href="../4.2/opdracht4.2.php">Opdracht 4.2</a>
                         </li>
                         <li>
                             <a href="../4.3/opdracht4.3.php">Opdracht 4.3</a>
@@ -91,6 +91,7 @@
             <?php
 
             ?>
+            <a href="../../index.php">terug</a>
         </div>
     </main>
     <footer>

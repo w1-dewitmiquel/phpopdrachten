@@ -144,31 +144,31 @@
 
             // Checken of je in een land op een bepaalde leeftijd mag drinken
             // else if toevoegen voor ieder land
-            if($countryname == "België" && $currentAge >= 16 && $currentAge < 18)
+            if($countryname == "België" && $currentAge >= 16 && $currentAge < 18) // Aanmaken meerdere condities
             {
                 echo("<p>Je mag hier zwakke alcohol drinken.</p>");
             }
-            else if($countryname == "België" && $currentAge >= 18)
+            else if($countryname == "België" && $currentAge >= 18) // Aanmaken meerdere condities
             {
                 echo("<p>Je mag hier sterke alcohol drinken.</p>");
             }
-            else if($countryname == "Bulgarije" && $currentAge >= 18)
+            else if($countryname == "Bulgarije" && $currentAge >= 18) // Aanmaken meerdere condities
             {
                 echo("<p>Je mag hier sterke en zwakke alcohol drinken.</p>");
             }
-            else if($countryname == "Cyprus" && $currentAge >= 17)
+            else if($countryname == "Cyprus" && $currentAge >= 17) // Aanmaken meerdere condities
             {
                 echo("<p>Je mag hier sterke en zwakke alcohol drinken</p>");
             }
-            else if($countryname == "Nederland" && $currentAge >= 20)
+            else if($countryname == "Nederland" && $currentAge >= 20) // Aanmaken meerdere condities
             {
                 echo("<p>Je mag hier sterke en zwakke alcohol drinken</p>");
             }
-            else if($countryname == "Zweden" && $currentAge >= 18 && $currentAge < 20)
+            else if($countryname == "Zweden" && $currentAge >= 18 && $currentAge < 20) // Aanmaken meerdere condities
             {
                 echo("<p>Je mag hier zwakke alcohol drinken</p>");
             }
-            else if($countryname == "Zweden" && $currentAge >= 20)
+            else if($countryname == "Zweden" && $currentAge >= 20) // Aanmaken meerdere condities
             {
                 echo("<p>Je mag hier sterke alcohol drinken</p>");
             }

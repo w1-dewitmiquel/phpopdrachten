@@ -1,9 +1,9 @@
 <?php
 /**
  * User: Miquel de Wit
- * Date: 20-2-2020
- * Time: 17:36 pm
- * File: opdracht4.2.php
+ * Date: 10-3-2020
+ * Time: 11:45 am
+ * File: opdracht4.3.php
  */
 ?>
 <!DOCTYPE html>
@@ -55,10 +55,10 @@ include("../../../Includes/header.php");
                         <a href="../4.1/opdracht4.1.php">Opdracht 4.1</a>
                     </li>
                     <li>
-                        <a href="opdracht4.2">Opdracht 4.2</a>
+                        <a href="../4.2/opdracht4.2.php">Opdracht 4.2</a>
                     </li>
                     <li>
-                        <a href="../4.3/opdracht4.3">Opdracht 4.3</a>
+                        <a href="../4.3/opdracht4.3.php">Opdracht 4.3</a>
                     </li>
                     <li>
                         <a href="../4.4/opdracht4.4.php">Opdracht 4.4</a>
@@ -89,14 +89,24 @@ include("../../../Includes/header.php");
             Uitwerking
         </h2>
         <?php
-            include("../../../Includes/opdrachten met Include/Hoofdstuk 4/script.php");
+        include("../../../Includes/opdrachten met Include/Hoofdstuk 4/script4.3.php");
+
+        echo($task2);
+        echo("<br>");
+        echo($task3);
+        echo("<br>");
+        echo($task4);
+        echo("<br>");
+        echo($task5);
+        echo($task6);
+        echo($task7);
         ?>
         <a href="../../index.php">terug</a>
     </div>
 </main>
 <footer>
     <?php
-        include("../../../Includes/footer.php");
+    include("../../../Includes/footer.php");
     ?>
 </footer>
 </body>

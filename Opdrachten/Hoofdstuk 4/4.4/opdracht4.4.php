@@ -1,9 +1,9 @@
 <?php
 /**
  * User: Miquel de Wit
- * Date: 20-2-2020
- * Time: 17:36 pm
- * File: opdracht4.2.php
+ * Date: 12-3-2020
+ * Time: 20:24 pm
+ * File: opdracht4.4.php
  */
 ?>
 <!DOCTYPE html>
@@ -61,7 +61,7 @@ include("../../../Includes/header.php");
                         <a href="../4.3/opdracht4.3">Opdracht 4.3</a>
                     </li>
                     <li>
-                        <a href="../4.4/opdracht4.4.php">Opdracht 4.4</a>
+                        <a href="opdracht4.4.php">Opdracht 4.4</a>
                     </li>
                 </ul>
                 Hoofdstuk 5
@@ -89,14 +89,14 @@ include("../../../Includes/header.php");
             Uitwerking
         </h2>
         <?php
-            include("../../../Includes/opdrachten met Include/Hoofdstuk 4/script.php");
+        include("../../../Includes/opdrachten met Include/Hoofdstuk 4/script4.4.php");
         ?>
         <a href="../../index.php">terug</a>
     </div>
 </main>
 <footer>
     <?php
-        include("../../../Includes/footer.php");
+    include("../../../Includes/footer.php");
     ?>
 </footer>
 </body>
