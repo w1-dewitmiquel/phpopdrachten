@@ -1,4 +1,12 @@
 <?php
+/**
+* User: Miquel de Wit
+* Date: 13-3-2020
+* Time: 18:35 pm
+* File: script4.4.php
+*/
+?>
+<?php
     date_default_timezone_set("Europe/Amsterdam");
 
     $sentence= "";
@@ -41,6 +49,4 @@
 
         $tel++;
     }
-
-    echo($sentence);
 ?>

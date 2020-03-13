@@ -1,9 +1,9 @@
 <?php
 /**
  * User: Miquel de Wit
- * Date: 12-3-2020
- * Time: 20:24 pm
- * File: opdracht4.4.php
+ * Date: 13-3-2020
+ * Time: 18:35 pm
+ * File: script4.4.php
  */
 ?>
 <!DOCTYPE html>
@@ -90,6 +90,7 @@ include("../../../Includes/header.php");
         </h2>
         <?php
         include("../../../Includes/opdrachten met Include/Hoofdstuk 4/script4.4.php");
+        echo($sentence);
         ?>
         <a href="../../index.php">terug</a>
     </div>
