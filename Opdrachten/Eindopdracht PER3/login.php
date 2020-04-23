@@ -50,8 +50,8 @@
     <?php
         if($loginSuccess == false)
         {
-            /* Laat dit via echo zien:
-             * <p>Login om onze inlogegevens + adresgegevens te zien</p>
+            // Laat dit via echo zien:
+             /* <p>Login om onze inlogegevens + adresgegevens te zien</p>
                 <p style="color: red">
                     <?php
                         echo($message);
@@ -64,6 +64,10 @@
                 </form>
              *
              */
+             $message = "Foutieve username en / of wachtwoord";
+             echo("<p style='color: red'>");
+             echo($message);
+             echo("</p>");
         }
 
     ?>
