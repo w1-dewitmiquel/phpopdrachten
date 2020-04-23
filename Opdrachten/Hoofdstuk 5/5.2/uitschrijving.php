@@ -1,0 +1,54 @@
+
+<?php
+    print_r($_GET);
+?>
+
+<table>
+    <tr>
+        <td>
+            <?php
+                echo($_GET["firstAndLastname"]);
+            ?>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <?php
+                echo($_GET["schoolNumber"]);
+            ?>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <?php
+                echo($_GET["deregistration"]);
+            ?>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <?php
+                echo($_GET["reasonDr"]);
+            ?>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <?php
+                echo($_GET["grade"]);
+            ?>
+        </td>
+    </tr>
+    <tr>
+        <td>
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <?php
+                echo($_GET["message"]);
+            ?>
+        </td>
+    </tr>
+</table>
