@@ -40,9 +40,9 @@
 
     session_start();
     if (isset($_SESSION['username'])) {
-        $bezoeker = $_SESSION['username'] . "&nbsp;<a href='../../Opdrachten/Hoofdstuk%206/loguit.php'>Loguit</a>";
+        $bezoeker = $_SESSION['username'] . "&nbsp;<a href='../Hoofdstuk%206/6.1/loguit.php'>Loguit</a>";
     } else {
-        $bezoeker = "onbekende bezoeker" . "&nbsp;<a href='../../Opdrachten/Hoofdstuk%206/opdracht6.1.php'>Login</a>";
+        $bezoeker = "onbekende bezoeker" . "&nbsp;<a href='../Hoofdstuk%206/6.1/opdracht6.1.php'>Login</a>";
     }
     echo($bezoeker);
 

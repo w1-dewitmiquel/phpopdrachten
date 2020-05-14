@@ -14,7 +14,7 @@
         "Ron" => "1234" // Ron = index - 1234 = value
     ];
 
-    // Eventuele foutmeldingen komen in deze string
+    // Eventuele foutmeldinge6n komen in deze string
     $message = "";
     // Is de persoon succesvol ingelogd?
     $loginSuccess = false;

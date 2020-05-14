@@ -38,7 +38,7 @@
     }
     echo("</div>"); // Aanmaken einde div
 
-    session_start();
+    // session_start();
     if (isset($_SESSION['username'])) {
         $bezoeker = $_SESSION['username'] . "&nbsp;<a href='../../Opdrachten/Hoofdstuk%206/loguit.php'>Loguit</a>";
     } else {

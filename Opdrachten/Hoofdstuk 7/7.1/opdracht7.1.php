@@ -12,14 +12,14 @@
     <meta name="description" content=" ">
     <meta name="keywords" content=" ">
     <meta charset="utf-8">
-    <link href="../Zcss/style.css" rel="stylesheet" type="text/css">
+    <link href="../../Zcss/style.css" rel="stylesheet" type="text/css">
     <title>
         Index
     </title>
 </head>
 <body>
 <?php
-include("../../Includes/header.php");
+include("../../../Includes/header.php");
 ?>
 <aside>
     <div id="list">
@@ -88,18 +88,50 @@ include("../../Includes/header.php");
         <h2 id="uitwerking2">
             Uitwerking
         </h2>
-        <form action="checklogin.php" method="post">
-            Username
-            <input type="text" name="username"><br>
-            Password
-            <input type="text" name="password"><br>
-            <input type="submit" name="button" value="Login">
-        </form>
+        <?php
+            // Open de database connectie en ODBC driver
+           try
+            {
+                $pdo = new PDO("odbc:odbc3");
+            }
+            catch (PDOException $e)
+            {
+                echo "<h1>Database error:</h1>";
+                echo $e->getMessage();
+                die();
+            }
+            echo "database connectie gelukt";
+
+            // Uitvoeren van een SQl query
+            try
+            {
+                // Query schrijven
+                $sql = 'SELECT * FROM joke';
+                // Query uitvoeren
+                $result = $pdo->query($sql);
+            }
+            catch (PDOException $e)
+            {
+                echo 'Er is een probleem met ophalen van jokes: ' . $e->getMessage();
+                exit();
+            }
+            // Lege Array aanmaken voor de results
+            $aJokes = array();
+            // Door de results heen loopen via een while
+            while ($row = $result->fetch(PDO::FETCH_ASSOC))
+            {
+                // Result wegschrijven in de $aJokes array
+                $aJokes[] = $row;
+            }
+            // Tonen van de inhoud van aJokes
+            var_dump($aJokes);
+        ?>
+
     </div>
 </main>
 <footer>
     <?php
-        include("../../Includes/footer.php");
+    include("../../../Includes/footer.php");
     ?>
 </footer>
 </body>

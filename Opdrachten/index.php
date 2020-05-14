@@ -79,6 +79,31 @@
                                 <a href="Hoofdstuk%205/5.4/opdracht5.4.php">Opdracht 5.4</a>
                             </li>
                         </ul>
+                        <ul>
+                            <li>
+                                <a href="Hoofdstuk%206/6.1/opdracht6.1.php">Opdracht 6.1</a>
+                            </li>
+                            <li>
+                                <a href="Hoofdstuk%206/6.2/Opdracht6.2.php">Opdracht 6.2</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="Hoofdstuk%207/7.1/opdracht7.1.php">Opdracht 7.1</a>
+                            </li>
+                            <li>
+                                <a href="Hoofdstuk%207/7.2/Hoofdstuk7_select.php">Opdracht 7.2</a>
+                            </li>
+                            <li>
+                                Opdracht 7.3
+                            </li>
+                            <li>
+                                Opdracht 7.4
+                            </li>
+                            <li>
+                                Opdracht 7.5
+                            </li>
+                        </ul>
                     </li>
                 </ul>
                 </div>

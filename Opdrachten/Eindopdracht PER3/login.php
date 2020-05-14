@@ -46,6 +46,9 @@
 </aside>
 <main id="wrapper">
     <h2>Bergheen</h2>
+    <?php
+        include("script.php");
+    ?>
 
     <?php
         if($loginSuccess == false)
@@ -71,9 +74,7 @@
         }
 
     ?>
-    <?php
-        include("script.php");
-    ?>
+
     <form action="login.php" method="post">
         Gebruikersnaam:
         <input type="text" name="username"><br>

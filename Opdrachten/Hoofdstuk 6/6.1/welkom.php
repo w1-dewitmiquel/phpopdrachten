@@ -12,7 +12,7 @@
     <meta name="description" content=" ">
     <meta name="keywords" content=" ">
     <meta charset="utf-8">
-    <link href="../Zcss/style.css" rel="stylesheet" type="text/css">
+    <link href="../../Zcss/style.css" rel="stylesheet" type="text/css">
     <title>
         Index
     </title>
